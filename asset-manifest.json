@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/google-images-app/static/css/main.20b0cd18.chunk.css",
+    "main.js": "/google-images-app/static/js/main.044bb3d6.chunk.js",
+    "main.js.map": "/google-images-app/static/js/main.044bb3d6.chunk.js.map",
+    "runtime-main.js": "/google-images-app/static/js/runtime-main.7ba6e168.js",
+    "runtime-main.js.map": "/google-images-app/static/js/runtime-main.7ba6e168.js.map",
+    "static/js/2.c73b0aac.chunk.js": "/google-images-app/static/js/2.c73b0aac.chunk.js",
+    "static/js/2.c73b0aac.chunk.js.map": "/google-images-app/static/js/2.c73b0aac.chunk.js.map",
+    "static/js/3.f8e7a9b3.chunk.js": "/google-images-app/static/js/3.f8e7a9b3.chunk.js",
+    "static/js/3.f8e7a9b3.chunk.js.map": "/google-images-app/static/js/3.f8e7a9b3.chunk.js.map",
+    "index.html": "/google-images-app/index.html",
+    "static/css/main.20b0cd18.chunk.css.map": "/google-images-app/static/css/main.20b0cd18.chunk.css.map",
+    "static/js/2.c73b0aac.chunk.js.LICENSE.txt": "/google-images-app/static/js/2.c73b0aac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ba6e168.js",
+    "static/js/2.c73b0aac.chunk.js",
+    "static/css/main.20b0cd18.chunk.css",
+    "static/js/main.044bb3d6.chunk.js"
+  ]
+}
