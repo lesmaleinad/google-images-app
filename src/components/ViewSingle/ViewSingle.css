@@ -1,0 +1,27 @@
+.view-image {
+    display: flex;
+}
+
+.view-image img {
+    width: 100%;
+}
+
+.view-image .close {
+    /* position */
+    position: fixed;
+    margin: 10px 0 0 6px;
+
+    /* color */
+    background-color: rgba(0, 0, 0, 0.302);
+
+    /* size */
+    border-radius: 50%;
+    padding: 5px;
+    height: 16px;
+    width: 16px;
+}
+
+.view-image .close path {
+    stroke: #f3f3f3;
+    stroke-width: 3px;
+}

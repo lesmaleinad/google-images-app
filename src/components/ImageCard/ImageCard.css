@@ -1,0 +1,37 @@
+.image-card {
+    /* spacing */
+    padding: 4px;
+    font-weight: 500;
+
+    /* fonts */
+    font-family: 'Roboto', sans-serif;
+
+    /* color */
+    color: rgba(32, 33, 36, 0.8);
+}
+
+.image-card img {
+    /* size */
+    width: 100%;
+
+    /* color */
+    background-color: ghostwhite;
+}
+
+.image-card .body {
+    margin-top: 4px;
+    padding: 0 4px 8px;
+    letter-spacing: 0.2px;
+    line-height: 0px;
+}
+
+.image-card .description {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.image-card span {
+    font-size: 10px;
+    line-height: 16px;
+    color: #5f6368;
+}
