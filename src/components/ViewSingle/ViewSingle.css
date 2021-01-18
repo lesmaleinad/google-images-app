@@ -25,3 +25,69 @@
     stroke: #f3f3f3;
     stroke-width: 3px;
 }
+
+.view-image .details {
+    color: #75757a;
+    letter-spacing: 0.025em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    padding: 12px 0 0 12px;
+}
+
+.view-image .top {
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-image .top .description {
+    color: #202124;
+
+    padding-top: 6px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.view-image .top button {
+    /* color */
+    background-color: #e8f0fe;
+    color: #1967d2;
+
+    /* text */
+    font-size: 0.875rem;
+    font-weight: 500;
+
+    /* position */
+    margin-right: 12px;
+
+    /* shape */
+    border: 0;
+    border-radius: 50px;
+
+    /* size */
+    height: 40px;
+    width: 100px;
+}
+
+.view-image .hr {
+    position: relative;
+    right: 10%;
+    width: 120%;
+
+    padding-top: 8px;
+    border-bottom: 0.5px solid #e0e0e0;
+}
+
+.related-images {
+    letter-spacing: 0.01785714em;
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: 12px;
+    color: rgba(32, 33, 36, 0.8);
+}

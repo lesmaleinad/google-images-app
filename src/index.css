@@ -1,6 +1,15 @@
-html, body, #root {
+html,
+body,
+#root {
     max-width: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
 
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }

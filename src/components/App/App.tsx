@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { utils } from '../../utils';
 import ImageCard from '../ImageCard/ImageCard';
 import ViewSingle from '../ViewSingle/ViewSingle';
 import './App.css';
@@ -65,10 +66,6 @@ function App() {
         }
     }
 
-    function normalizeUrl(url: string): string {
-        return url.slice(0, url.indexOf('/', 8));
-    }
-
     function getImageCard(image: ImageJson) {
         return (
             <Link key={image.id + 'l'} to={image.id}>
@@ -76,7 +73,7 @@ function App() {
                     key={image.id}
                     imgSrc={image.download_url}
                     description={image.author}
-                    url={normalizeUrl(image.url)}
+                    url={utils.normalizeUrl(image.url)}
                 />
             </Link>
         );
